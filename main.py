@@ -33,3 +33,10 @@ if __name__ == "__main__":
   print(colors)
   sub_colors = colors[-3:]
   print(sub_colors)
+
+  # Using Python List slice to get every nth element from a list
+
+  colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+  print(colors)
+  sub_colors = colors[::2]
+  print(sub_colors)
