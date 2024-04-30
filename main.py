@@ -54,3 +54,11 @@ if __name__ == "__main__":
   print(colors)
   colors[0:2] = ["black", "white"]
   print(colors)
+
+  # Using Python List slice to partially replace and resize a list
+  colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+  print(colors)
+  print(f"The list has {len(colors)} elements")
+  colors[0:2] = ["black", "white", "gray"]
+  print(colors)
+  print(f"The list has {len(colors)} elements")
