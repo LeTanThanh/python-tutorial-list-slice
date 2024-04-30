@@ -62,3 +62,9 @@ if __name__ == "__main__":
   colors[0:2] = ["black", "white", "gray"]
   print(colors)
   print(f"The list has {len(colors)} elements")
+
+  # Using Python list slice to delete elements
+  colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+  print(colors)
+  del colors[2:5]
+  print(colors)
