@@ -47,3 +47,10 @@ if __name__ == "__main__":
   print(colors)
   sub_colors = colors[::-1]
   print(sub_colors)
+
+  # Using Python List slice to substitute part of a list
+
+  colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+  print(colors)
+  colors[0:2] = ["black", "white"]
+  print(colors)
