@@ -40,3 +40,10 @@ if __name__ == "__main__":
   print(colors)
   sub_colors = colors[::2]
   print(sub_colors)
+
+  # Using Python List slice to reverse a list
+
+  colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+  print(colors)
+  sub_colors = colors[::-1]
+  print(sub_colors)
